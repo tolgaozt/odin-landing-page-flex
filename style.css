@@ -1,0 +1,170 @@
+html {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    /* border: 1px dashed red; */
+}
+
+.container {
+    justify-content: center; 
+    align-items: center;
+    height: 100%; 
+    padding: 0; 
+    margin: 0;
+}
+
+body {
+    margin: 0;
+}
+
+.navbar, 
+.hero,
+.footer {
+    background-color: #1F2937;
+    padding: 3% 8%;
+}
+
+/* NAVBAR */
+/* NAVBAR */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar h1 {
+    font-size: 20px;
+    margin-left: 0;
+    color: #E5E7EB;
+}
+
+.nav-links {
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    gap: 26px;
+}
+
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+
+
+/* HERO */
+/* HERO */
+
+.hero {
+    display: flex;
+    height: 40vh;
+    justify-content: center;
+    align-items: center;
+    gap: 28px;
+}
+
+.hero img {
+    height: 200px;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.hero-text p {
+    font-size: 18px;
+    color: gray;
+}
+
+
+
+/* CARD-SECTION */
+/* CARD-SECTION */
+/* 
+.card-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    width: 80%;
+}
+*/
+
+.card-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+    height: 30vh;
+}
+
+.card-section h2 {
+    margin-bottom: 28px;
+    font-weight: bolder;
+}
+
+.cards {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card img {
+    object-fit: cover;
+    height: 100px;
+    width: 100px;
+    border: 3px solid cyan;
+    border-radius: 10px;
+}
+
+/* QUOTE */
+/* QUOTE */
+
+.quote {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+/* SIGNUP */
+/* SIGNUP */
+
+
+
+
+
+/* FOOTER */
+/* FOOTER */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    color: #F9FAF8;
+}
