@@ -148,6 +148,10 @@ button:hover {
     text-align: center;
 }
 
+.card p {
+    margin-top: 10px;
+}
+
 .card img {
     object-fit: cover;
     height: 100px;
